@@ -5,6 +5,7 @@
 Remember to bring your dependencies up to date with `./scripts/venvinstall.sh` when updating to this version!
 
 - Bugfix: Fix tweet-manager streaming if bot follows non-existent twitter users. (#1589)
+- Dev: Replaced Flask-Scrypt with the built-in secrets module to generate the secret_key in the config file.
 
 ## v1.58
 
